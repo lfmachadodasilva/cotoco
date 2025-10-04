@@ -18,7 +18,7 @@ jobs:
     
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -34,7 +34,7 @@ jobs:
 
     - name: Setup Pages
       if: ${{ !startsWith(github.ref_name, 'renovate') }}
-      uses: actions/configure-pages@v4
+      uses: actions/configure-pages@v5
 
     - name: Upload artifact
       if: ${{ !startsWith(github.ref_name, 'renovate') }}
