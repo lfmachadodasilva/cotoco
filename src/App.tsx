@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import { useTranslation, Trans } from 'react-i18next'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import LanguageSwitcher from './components/LanguageSwitcher'
+import { useState } from 'react';
+import { useTranslation, Trans } from 'react-i18next';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const { t } = useTranslation()
+  const [count, setCount] = useState(0);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -22,7 +22,7 @@ function App() {
       </div>
       <h1>{t('app_title')}</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount(count => count + 1)}>
           {t('count_button', { count })}
         </button>
         <p>
@@ -31,11 +31,9 @@ function App() {
           </Trans>
         </p>
       </div>
-      <p className="read-the-docs">
-        {t('learn_more')}
-      </p>
+      <p className="read-the-docs">{t('learn_more')}</p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
