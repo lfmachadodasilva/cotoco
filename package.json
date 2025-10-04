@@ -12,8 +12,11 @@
     "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
+    "i18next": "25.5.3",
+    "i18next-browser-languagedetector": "8.2.0",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-i18next": "^16.0.0"
   },
   "devDependencies": {
     "@eslint/js": "9.37.0",

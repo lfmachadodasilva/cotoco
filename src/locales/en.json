@@ -1,0 +1,13 @@
+{
+  "welcome": "Welcome",
+  "app_title": "Vite + React",
+  "count_button": "count is {{count}}",
+  "edit_instruction": "Edit <1>src/App.tsx</1> and save to test HMR",
+  "learn_more": "Click on the Vite and React logos to learn more",
+  "language": "Language",
+  "switch_to": "Switch to {{language}}",
+  "language_english": "English",
+  "language_portuguese": "Português",
+  "browser_detected": "Browser detected",
+  "auto_selected": "Auto-selected based on browser language"
+}
