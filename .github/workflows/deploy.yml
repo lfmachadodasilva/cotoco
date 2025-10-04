@@ -27,14 +27,14 @@ jobs:
         cache: 'yarn'
 
     - name: Install dependencies
-      run: yarn install --frozen-lockfile
+      run: yarn install
 
     - name: Build
       run: yarn build
 
     - name: Setup Pages
       if: ${{ !startsWith(github.ref_name, 'renovate') }}
-      uses: actions/configure-pages@v4
+      uses: actions/configure-pages@v5
 
     - name: Upload artifact
       if: ${{ !startsWith(github.ref_name, 'renovate') }}
