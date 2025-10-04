@@ -49,6 +49,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: ${{ !startsWith(github.ref_name, 'renovate') }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
