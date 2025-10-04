@@ -8,11 +8,11 @@ import pt from './locales/pt.json';
 
 const resources = {
   en: {
-    translation: en
+    translation: en,
   },
   pt: {
-    translation: pt
-  }
+    translation: pt,
+  },
 };
 
 i18n
@@ -22,18 +22,18 @@ i18n
     resources,
     lng: undefined, // let detector determine language
     fallbackLng: 'en', // fallback language
-    
+
     interpolation: {
-      escapeValue: false // react already does escaping
+      escapeValue: false, // react already does escaping
     },
-    
+
     // Language detection configuration
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       lookupLocalStorage: 'i18nextLng',
       caches: ['localStorage'],
       excludeCacheFor: ['cimode'], // never cache cimode
-      
+
       // Map pt-BR to pt
       convertDetectedLanguage: (lng: string) => {
         if (lng.startsWith('pt')) {
@@ -43,8 +43,8 @@ i18n
           return 'en';
         }
         return lng;
-      }
-    }
+      },
+    },
   });
 
 export default i18n;
