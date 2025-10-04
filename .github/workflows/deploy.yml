@@ -33,9 +33,11 @@ jobs:
       run: yarn build
 
     - name: Setup Pages
+      if: ${{ !startsWith(github.ref_name, 'renovate') }}
       uses: actions/configure-pages@v4
 
     - name: Upload artifact
+      if: ${{ !startsWith(github.ref_name, 'renovate') }}
       uses: actions/upload-pages-artifact@v3
       with:
         path: './dist'
