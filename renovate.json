@@ -3,5 +3,7 @@
   "extends": ["config:recommended"],
   "rangeStrategy": "bump",
   "automerge": true,
-  "automergeType": "pr"
+  "automergeType": "pr",
+  "rebaseWhen": "behind-base-branch",
+  "platformAutomerge": true
 }
