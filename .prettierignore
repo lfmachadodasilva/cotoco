@@ -1,17 +1,21 @@
 # Dependencies
 node_modules/
-yarn.lock
-package-lock.json
 
 # Build outputs
-dist/
 build/
+dist/
+out/
 
-# Generated files
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Coverage reports
 coverage/
-
-# Logs
-*.log
 
 # Environment files
 .env
@@ -20,16 +24,18 @@ coverage/
 .env.test.local
 .env.production.local
 
-# IDE
-.vscode/
-.idea/
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# OS
+# Generated files
+*.min.js
+*.min.css
+
+# Logs
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
-
-# Git
-.git/
-
-# Prettier ignore itself
-.prettierignore
