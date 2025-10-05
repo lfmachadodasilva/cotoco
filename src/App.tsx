@@ -41,7 +41,7 @@ const translations: Translations = {
   },
   amount2: {
     en: 'Diaper disaster prevention 💩',
-    pt: 'Prevenção de desastres de fralda 💩',
+    pt: 'Operação fralda limpa 💩',
   },
   amount3: {
     en: 'Midnight snack support 🍪',
