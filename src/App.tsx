@@ -20,8 +20,8 @@ interface Translations {
 
 const translations: Translations = {
   heroTitle: {
-    en: 'Help Baby Arrive in Style 💸👶',
-    pt: 'Ajude o Bebê a Chegar com Estilo 💸👶',
+    en: 'Help baby Arrive in style 💸👶',
+    pt: 'Ajude o bebê a Chegar com estilo 💸👶',
   },
   heroDescription: {
     en: "Our little human is coming in December! Help us buy all the things we didn't know babies needed (spoiler alert: it's everything).",
@@ -35,19 +35,19 @@ const translations: Translations = {
     en: 'Pick your generosity level 😄',
     pt: 'Escolha seu nível de generosidade 😄',
   },
-  amount10: {
+  amount1: {
     en: "Baby's first socks fund 🧦",
     pt: 'Fundo das primeiras meias 🧦',
   },
-  amount20: {
+  amount2: {
     en: 'Diaper disaster prevention 💩',
     pt: 'Prevenção de desastres de fralda 💩',
   },
-  amount50: {
+  amount3: {
     en: 'Midnight snack support 🍪',
     pt: 'Apoio para lanches da madrugada 🍪',
   },
-  amount100: {
+  amount4: {
     en: 'Sleep restoration donation 😴',
     pt: 'Doação para restaurar o sono 😴',
   },
@@ -81,10 +81,10 @@ const amounts = {
     { value: 100, symbol: '£' },
   ],
   pt: [
+    { value: 10, symbol: 'R$' },
     { value: 50, symbol: 'R$' },
-    { value: 100, symbol: 'R$' },
-    { value: 250, symbol: 'R$' },
-    { value: 500, symbol: 'R$' },
+    { value: 150, symbol: 'R$' },
+    { value: 300, symbol: 'R$' },
   ],
 };
 
@@ -106,7 +106,7 @@ export default function App() {
   };
 
   const generateRevolutLink = (amount: number) => {
-    return `https://revolut.me/luizdasilva5/${amount}`;
+    return `https://revolut.me/lfmachadodasilva`;
   };
 
   return (
@@ -220,9 +220,9 @@ export default function App() {
                       </div>
                       <div className="text-sm text-gray-400">
                         {t(
-                          `amount${amount.value}` in translations
-                            ? `amount${amount.value}`
-                            : 'amount10'
+                          `amount${index + 1}` in translations
+                            ? `amount${index + 1}`
+                            : 'amount1'
                         )}
                       </div>
                     </CardContent>
@@ -304,7 +304,7 @@ export default function App() {
                       </h3>
                       <div className="rounded-lg border border-gray-600 bg-gray-800 p-3">
                         <p className="break-all font-mono text-sm text-gray-300">
-                          luiz@example.com
+                          0044aa1f-0cb4-4ac7-a11a-ee11b12f14a7
                         </p>
                       </div>
                     </div>
