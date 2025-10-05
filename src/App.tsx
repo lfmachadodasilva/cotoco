@@ -81,8 +81,8 @@ const amounts = {
     { value: 100, symbol: '£' },
   ],
   pt: [
-    { value: 10, symbol: 'R$' },
     { value: 50, symbol: 'R$' },
+    { value: 70, symbol: 'R$' },
     { value: 100, symbol: 'R$' },
     { value: 150, symbol: 'R$' },
   ],
