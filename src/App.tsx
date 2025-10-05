@@ -37,7 +37,7 @@ const translations: Translations = {
   },
   amount1: {
     en: "Baby's first socks fund 🧦",
-    pt: 'Fundo das primeiras meias 🧦',
+    pt: 'Fundo para bebê quentinho 🧦',
   },
   amount2: {
     en: 'Diaper disaster prevention 💩',
