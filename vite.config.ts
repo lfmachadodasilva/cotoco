@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/cotoco/',
+  base: './',
   root: './src',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
