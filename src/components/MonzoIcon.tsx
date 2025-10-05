@@ -1,4 +1,4 @@
-import monzoLogo from '../assets/d577d9d993e471ec2b6aee28993958e783549110.png';
+import monzoLogo from '../assets/monzo.png';
 
 interface MonzoIconProps {
   className?: string;
