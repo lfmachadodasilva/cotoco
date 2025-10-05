@@ -7,6 +7,7 @@ import { Copy } from 'lucide-react';
 import { toast } from 'sonner';
 import { MonzoIcon } from './components/MonzoIcon';
 import { RevolutIcon } from './components/RevolutIcon';
+import cotocoImage from './assets/cotoco.png';
 
 type Language = 'en' | 'pt';
 
@@ -131,7 +132,7 @@ export default function App() {
             className="flex justify-center"
           >
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1623707430616-d9f956bcac2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXRlJTIwYmFieSUyMGJvdHRsZSUyMGNhcnRvb258ZW58MXx8fHwxNzU5Njc3OTk5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src={cotocoImage}
               alt="Baby bottle"
               className="h-32 w-32 rounded-full border-4 border-purple-500 object-cover shadow-lg"
             />
