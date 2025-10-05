@@ -24,8 +24,8 @@ const translations: Translations = {
     pt: 'Ajude o bebê a Chegar com estilo 💸👶',
   },
   heroDescription: {
-    en: "Our little human is coming in December! Help us buy all the things we didn't know babies needed (spoiler alert: it's everything).",
-    pt: 'Nosso pequeno humano está chegando em dezembro! Nos ajude a comprar todas as coisas que não sabíamos que bebês precisavam (spoiler: é tudo).',
+    en: 'We’re discovering just how much a tiny human needs! If you’d like to be part of our baby prep adventure here is a way you can do so.',
+    pt: 'Estamos descobrindo o quanto um pequeno ser humano precisa! Se você quiser fazer parte da nossa aventura de preparação para o bebê, aqui está uma maneira de fazê-lo.',
   },
   languageTitle: {
     en: 'Choose your language',
