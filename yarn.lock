@@ -547,12 +547,12 @@ find-up@^4.0.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-framer-motion@^12.27.2:
-  version "12.27.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.27.2.tgz#b51bfa4dfbb01cb8155c1c716cb778e9b4038aa2"
-  integrity sha512-a6MRrna8mQLdSoNtDr6VwVHujVB9Bzkbm+lmlejgGOFtqAPlEpeZHN8IHhrk9LxE4E0+5jRO77tXdvWl4+lfQg==
+framer-motion@^12.27.5:
+  version "12.27.5"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.27.5.tgz#b81242d0461ba5ddfd3b7f8f25404e2550a730e6"
+  integrity sha512-yUFof7Y2Y2qDJxLKeA91qMazuA6QBOoLOZ0No2J5VIQuhJLWMmGwT/5qyCfpa9mNNS3C7lOR6NhlC3mLZjLw4g==
   dependencies:
-    motion-dom "^12.27.2"
+    motion-dom "^12.27.5"
     motion-utils "^12.27.2"
     tslib "^2.4.0"
 
@@ -670,10 +670,10 @@ micromatch@^4.0.8:
     braces "^3.0.3"
     picomatch "^2.3.1"
 
-motion-dom@^12.27.2:
-  version "12.27.2"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.27.2.tgz#7bcc51c636f6118ce7903c630a5a796586b58e74"
-  integrity sha512-NJQNr+S6CthEx4AyLWKvM+vPfIBCJjTGMWRjO0n3mele1WueJLV+WRw4GYnOUzfZ58za9oHrIFEHy+fg4uaLqA==
+motion-dom@^12.27.5:
+  version "12.27.5"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.27.5.tgz#90ca80d809ee3af3f259518e5794d01a48511e77"
+  integrity sha512-UwBv2AUOkA7/TCHr67NGjg3aRT7nbsanmmenRoR7T6IJXZp34OZB+pooGnKjMd8CqqCsF/+qwT657EkukjgmiQ==
   dependencies:
     motion-utils "^12.27.2"
 
@@ -682,12 +682,12 @@ motion-utils@^12.27.2:
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.27.2.tgz#cd3038236ae2dc3d643bdb272ed831fd6d8ab616"
   integrity sha512-B55gcoL85Mcdt2IEStY5EEAsrMSVE2sI14xQ/uAdPL+mfQxhKKFaEag9JmfxedJOR4vZpBGoPeC/Gm13I/4g5Q==
 
-motion@12.27.2:
-  version "12.27.2"
-  resolved "https://registry.yarnpkg.com/motion/-/motion-12.27.2.tgz#31d24874db771ba8ba3fd5c8b67184a2a47dcf64"
-  integrity sha512-CIOeK32up0ksJcVq8Q4AuiGB2LkSv2brRBoQzWL4vZXDhBaKCTtSvR6OwZrcRssrj5IrzDgi3dzCN1xInoRlVg==
+motion@12.27.5:
+  version "12.27.5"
+  resolved "https://registry.yarnpkg.com/motion/-/motion-12.27.5.tgz#78f8a7e205717f8b6af5982e7f4acff734e3ad8b"
+  integrity sha512-Am4QS7Nd9+yhAOQSefziBmX0hYtc0HaWbXY5+0r/0J8eBBFf5jXzlBew+v+7i+eNmdVpDagVqwjES8fPYtEayA==
   dependencies:
-    framer-motion "^12.27.2"
+    framer-motion "^12.27.5"
     tslib "^2.4.0"
 
 nanoid@^3.3.11:
